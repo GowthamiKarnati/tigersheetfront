@@ -175,7 +175,7 @@ const App = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Fetching Tigersheet API </h1>
+      <h1 style={styles.heading}>Fetching Data from Tigersheet API </h1>
       {loading ? (
         // Render loader while data is being fetched
         <p>Loading...</p>
