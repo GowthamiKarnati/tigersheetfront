@@ -63,7 +63,7 @@ const App = () => {
           return;
         }
 
-        const response = await axios.get(`http://localhost:3001/sendpostrequest`);
+        const response = await axios.get(`https://newbackend-nine.vercel.app/sendpostrequest`);
 
         setData(response.data.data);
         console.log(response.data);
